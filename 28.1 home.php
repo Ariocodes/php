@@ -20,8 +20,10 @@
     echo $_SESSION["username"] . "<br>";
     echo $_SESSION["password"] . "<br>";
 
+
+    // REDIRECTING
     if(isset($_POST["logout"])){{
         session_destroy();
-        header("Location: 28 session.php");
+        header("Location: 28 _SESSION.php");
     }}
 ?>

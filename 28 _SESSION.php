@@ -22,7 +22,7 @@
 </head>
 <body>
     This is the login page<br>
-    <form action="28 session.php" method="post">
+    <form action="<?php $_SERVER["PHP_SELF"]?>" method="post">
         username:<br>
         <input type="text" name="username"><br>
         password:<br>
